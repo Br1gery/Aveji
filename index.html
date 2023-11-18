@@ -7,6 +7,8 @@
     <title>Aveji</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="medias.css">
+    <script src="App.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -15,7 +17,7 @@
     <header>
         <div class="container header__cont">
             <img src="logo.png" alt="">
-            <img src="burger.png" alt="" class="phone_vers">
+            <a id="testia"><img src="burger.png" alt="" class="phone_vers"></a>
             <div class="header__contacts">
                 <div class="header__buttons">
                     <a href="!">О нас</a>
@@ -25,6 +27,13 @@
                 </div>
                 <a href="!">+7 999 999 99 99</a>
             </div>
+        </div>
+        <div style="width: 100%; background-color: wheat; height: 50px; position: absolute; z-index: -1;" class="testikers">о нас</div>
+        <div style="width: 100%; background-color: wheat; height: 50px; position: absolute; z-index: -2;" class="testikers1">проекты</div>
+        <div style="width: 100%; background-color: wheat; height: 50px; position: absolute; z-index: -3;" class="testikers2">отзывы</div>
+        <div style="width: 100%; background-color: wheat; height: 50px; position: absolute; z-index: -4;display:flex;flex-direction: row;justify-content: space-between;" class="testikers3">
+            <p>Материалы</p>
+            <a id="testik2"><img src="burger.png" alt=""></a>
         </div>
     </header>
 
