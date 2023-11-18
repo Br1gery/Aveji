@@ -1,0 +1,184 @@
+@media screen and (max-width: 992px) {
+    .big-image img {
+        min-height: 600px;
+    }
+
+    .hero__main {
+        min-height: 630px;
+    }
+
+    .hero h1 {
+        max-width: 750px;
+        color: var(--text-main, #212529);
+        font-family: Helvetica;
+        font-size: 6vw;
+        font-style: normal;
+        line-height: 120%;
+        text-transform: uppercase;
+    }
+
+    .about h2 {
+        font-size: 4vw;
+        max-width: 48%;
+    }
+
+    .steps_main_p{
+        font-size: 3vw;
+    }
+
+    .steps_main_p{
+        font-size: 24px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .steps_sub_p{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .steps__right__item__up{
+        flex-direction: column;
+    }
+
+    .projects h2{
+        font-size: 28px
+    }
+    
+    .testimonials__cont{
+        flex-direction: column;
+    }
+
+    .testimonials__item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .pic_pc{
+        display: none;
+    }
+
+    .form__cont{
+        width: 100%;
+    }
+
+    .form__order{
+        width: 100%;
+    }
+
+    .testimonials {
+        margin-bottom: 50px;
+    }
+
+    .form__desc{
+        margin-bottom: 32px;
+    }
+
+    .footer__cont{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero__main {
+        min-height: 630px;
+    }
+
+    .p__main {
+        display: none;
+    }
+
+    .p__phone {
+        display: flex;
+    }
+
+    .hero__article {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .hero__left img {
+        display: none;
+    }
+
+    .big-image img {
+        min-height: 1vw;
+    }
+
+    .big-image {
+        max-height: 100vw;
+    }
+
+    .hero__main {
+        min-height: 100vw;
+    }
+
+    .about h2 {
+        display: none;
+    }
+
+    .steps h2{
+        display: flex !important;
+        font-size: 28px;
+        max-width: 100%;
+    }
+
+    .about_cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__right {
+        width: 100%;
+    }
+
+    .hero{
+        margin-bottom: 50px;
+    }
+
+    .about{
+        margin-bottom: 50px;
+    }
+
+    .projects_list{
+        margin: 4px, 4px;
+        padding: 4px;
+        padding-bottom: 10px;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .img__cont{
+        width: 300px;
+    }
+
+    .img__cont img{
+        width: 300px;
+    }
+
+    .projects{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .form__header{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .header__contacts{
+        display: none;
+    }
+
+    .phone_vers{
+        display: flex;
+    }
+}
